@@ -8,7 +8,7 @@ set -x
 # - CONFLUENCE_VERSION
 # - CONFLUENCE_MEMORY
 
-export CONFLUENCE_DOWNLOAD_FILE=atlassian-confluence-${CONFLUENCE_VERSION?}.tar.gz
+export CONFLUENCE_DOWNLOAD_FILE=atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz
 export CONFLUENCE_DOWNLOAD_URL="http://www.atlassian.com/software/confluence/downloads/binary/${CONFLUENCE_DOWNLOAD_FILE}"
 export CONFLUENCE_INSTALL_PATH=$(pwd)
 export CONFLUENCE_APP_LINK=confluence-app
