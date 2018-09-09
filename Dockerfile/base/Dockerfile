@@ -26,6 +26,8 @@ RUN ["/bin/bash", "-c", "set -x \
        tar \
        unzip \
        python-setuptools \
+       python-dateutil \
+       python-magic \
     && apt-get clean \
 
     # Install S3CMD (For importing large backups.)
